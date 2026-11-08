@@ -1,0 +1,147 @@
+index.html 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My World | Rishil</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111318;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 25px;
+}
+
+.welcome {
+  border: 3px solid #168cff;
+  color: #45b4ff;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  box-shadow: 0 0 15px #168cff;
+  max-width: 850px;
+  margin: auto;
+}
+
+h1 {
+  margin-top: 65px;
+  font-size: clamp(45px, 10vw, 85px);
+  color: #5be0ff;
+  text-shadow: 5px 5px #1769a5;
+  letter-spacing: 5px;
+}
+
+.subtitle {
+  color: #aaa;
+  margin: 20px 0 40px;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1c222c;
+  border: 2px solid #34495e;
+  padding: 30px 20px;
+  box-shadow: 5px 5px #080a0d;
+}
+
+.card h2 {
+  color: #5be0ff;
+  margin: 15px 0;
+}
+
+.card p {
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.profile {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px solid #168cff;
+  background: #191f29;
+  box-shadow: 5px 5px #080a0d;
+}
+
+.profile h2 {
+  color: #5be0ff;
+  margin-bottom: 15px;
+}
+
+.profile h3 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+footer {
+  color: #777;
+  margin-top: 45px;
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  body { padding: 15px; }
+  h1 { margin-top: 45px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="welcome">WELCOME</div>
+
+<h1>MY WORLD</h1>
+
+<p class="subtitle">
+Welcome to my world of Technology, Creativity and Gaming.
+</p>
+
+<div class="container">
+
+  <div class="card">
+    <h2>💻 Technology</h2>
+    <p>Interested in technology, computers and digital innovation.</p>
+  </div>
+
+  <div class="card">
+    <h2>✨ Creator</h2>
+    <p>Learning new things and creating something unique.</p>
+  </div>
+
+  <div class="card">
+    <h2>🎮 Gaming</h2>
+    <p>Gaming, exploring new worlds and having fun.</p>
+  </div>
+
+</div>
+
+<div class="profile">
+  <h2>PLAYER PROFILE</h2>
+  <h3>Muhammed RISHIL KP</h3>
+  <p>Malappuram, Kerala</p>
+</div>
+
+<footer>
+  © 2026 MY WORLD | Created by Rishil
+</footer>
+
+</body>
+</html>
